@@ -1,0 +1,58 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  background-color: #030509;
+}
+
+.status-bar {
+  background-color: #030509;
+}
+
+.tab-bar {
+  background-color: #030509;
+  box-shadow: inset 0 -1px 0 #121e34;
+}
+
+.tab {
+  background-color: #060a11 !important;
+  border-left: 1px solid #121e34 !important;
+}
+
+.line-number {
+  color: #305088 !important;
+}
+
+.wrap-guide {
+  background-color: #121e34 !important;
+}
+
+.atom-dock-inner.atom-dock-open.left {
+    border-right: 1px solid #121e34;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  background-color: #060a11;
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  // border-color: red;
+}
